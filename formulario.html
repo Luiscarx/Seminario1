@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+      body{
+        background-image: url("flamencos.jpg");
+      }
+
+    </style>
+  </head>
+
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Zoologico Inicio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="formulario.html">Formulario</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="normas.html">Recintos e instalaciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reco.html">Recomendaciones y restricciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled"
+                ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav><br>
+      
+    
+    <form action="" method="">
+      
+      <table>
+          <tr>
+              <th><br>
+                  <h2>Formulario Zoo:</h2><br>
+                  <h2>Información Personal</h2>
+                  <label for="nombre">Nombre: </label><input type="text" required name="nombre " placeholder="<Escriba su nombre"><br><br>
+                  <label for="edad">Edad: </label> <input type="number" required name="edad" min="10" max="100"><br><br>
+                  <p>Genero:</p>
+                  <label >Femenino: </label>  <input type="radio" id="femenino" name="Genero"><br>
+                  <label >Masculino: </label> <input type="radio" id="masculino" name="Genero"><br><br>
+                  <label for="correo">Correo: </label><input type="email" required id="correo" placeholder="<Escriba su correo"><br><br>
+                  <label for="celular">Celular: </label><input type="tel" required id="celular" placeholder="<Escriba su celular"><br><br>
+              </th>
+          </tr>
+      </table> <br>
+
+      <table>
+        <tr>
+            <th><br>
+                <h2>Experiencias, Expectativas y Opiniones acerca del Zoo</h2>
+                <label >Cuantas veces a ido al Zoológico: </label> <br>
+                <p>Seleccione:</p>
+                <label >Ninguna </label>  <input type="radio" id="no" required name="Seleccion26"><br>
+                <label >1 </label> <input type="radio" id="no" required name="Seleccion26"><br>
+                <label >2 </label> <input type="radio" id="no" required name="Seleccion26"><br>
+                <label >3 </label> <input type="radio" id="no" required name="Seleccion26"><br>
+                <label >Mas de 4 </label> <input type="radio" id="no" required name="Seleccion26"><br><br>
+                <label for="ex">Que experiencias sintio, describalas: </label> <br> <br>
+                <textarea name="ex" id="ex" cols="30" rows="10" >Escriba aqui:  </textarea><br>
+                <label for="ex1">Que Expectativas tiene de su siguiente visita al Zoológico, describalas: </label> <br> <br>
+                <textarea name="ex1" id="ex1" cols="30" rows="10" >Escriba aqui:  </textarea><br>
+                <label for="ex2">Que Opina acerca de los animales encerrados? </label> <br> <br>
+                <textarea name="ex1" id="ex1" cols="30" rows="10" >Escriba aqui:  </textarea><br>
+                <label for="ex2">Que Opina acerca de los Zoológicos? </label> <br> <br>
+                <textarea name="ex1" id="ex1" cols="30" rows="10" >Escriba aqui:  </textarea><br><br>
+            </th>
+        </tr>
+    </table>
+    <br>
+    
+    <button type="reset">Limpiar</button>
+    <button type="submit">Enviar</button>
+
+</form><br>
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+</html>
