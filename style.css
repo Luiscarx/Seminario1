@@ -4,7 +4,7 @@ html {
 }
 
 table, th {
-    background-color: rgb(47, 191, 205);
+    background-color: rgb(180, 190, 190);
     border: 1px double black;
     border-collapse: collapse;
     margin-left: auto;
